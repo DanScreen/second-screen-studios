@@ -1,32 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Second Screen Studios logo">
   <title>Second Screen Studios</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1F1A4F"/>
-      <stop offset="1" stop-color="#07061A"/>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1A1640"/>
+      <stop offset="1" stop-color="#09081C"/>
     </linearGradient>
-    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#3DE0FF"/>
-      <stop offset="0.55" stop-color="#7A5CFF"/>
-      <stop offset="1" stop-color="#C07CFF"/>
+    <linearGradient id="first" gradientUnits="userSpaceOnUse" x1="35" y1="17" x2="80" y2="62">
+      <stop offset="0" stop-color="#B49CFF"/>
+      <stop offset="1" stop-color="#6A45FF"/>
     </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <linearGradient id="second" gradientUnits="userSpaceOnUse" x1="40" y1="58" x2="85" y2="103">
+      <stop offset="0" stop-color="#4CE6FF"/>
+      <stop offset="1" stop-color="#1192E8"/>
+    </linearGradient>
   </defs>
-
-  <!-- app tile -->
-  <rect width="120" height="120" rx="28" fill="url(#bg)"/>
+  <rect width="120" height="120" rx="28" fill="url(#tile)"/>
   <rect x="0.75" y="0.75" width="118.5" height="118.5" rx="27.25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1.5"/>
-
-  <!-- abstract S: a single stroke that reads as a signal or a path, not as screens -->
-  <path d="M84 36 A24 24 0 1 0 60 60 A24 24 0 1 1 36 84"
-        fill="none" stroke="url(#mark)" stroke-width="11" stroke-linecap="round" filter="url(#glow)"/>
-
-  <!-- accent dot -->
-  <circle cx="100" cy="100" r="4.5" fill="#3DE0FF"/>
+  <!-- split S: two halves cut by one slanted slit; the second half is the "second screen" -->
+  <path d="M74.74 31.67 A18 18 0 1 0 56.87 59.73" fill="none" stroke="url(#first)" stroke-width="14"/>
+  <path d="M63.13 60.27 A18 18 0 1 1 45.26 88.33" fill="none" stroke="url(#second)" stroke-width="14"/>
 </svg>

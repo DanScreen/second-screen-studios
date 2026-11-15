@@ -64,7 +64,30 @@ header {
   font-size: 1.1rem;
 }
 
-.brand img { width: 40px; height: 40px; }
+.brand img { width: 26px; height: 40px; }
+
+.wordmark {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.wm-main {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-size: 1.05rem;
+  color: var(--brand);
+}
+
+.wm-sub {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.45em;
+  font-size: 0.62rem;
+  color: var(--accent);
+  margin-top: 5px;
+}
 
 nav a {
   color: var(--accent);

@@ -7,7 +7,9 @@ Website for Second Screen Studios. It is a static site and is hosted with GitHub
 - `index.html`: landing page
 - `privacy/index.html`: privacy policy, served at `/privacy/`
 - `assets/style.css`: shared styles, light and dark
-- `assets/logo.svg`: placeholder logo
+- `assets/logo.svg`: app-icon logo (split S on a dark tile), also the favicon
+- `assets/logo-mark.svg`: the split S on its own, transparent background
+- `assets/logo-lockup.svg`: mark plus wordmark, for light backgrounds. The text uses system fonts, so convert it to outlines in a design tool before using it in print or on store pages.
 
 ## Before publishing
 

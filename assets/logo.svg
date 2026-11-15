@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Second Screen Studios placeholder logo">
+  <title>Second Screen Studios (placeholder logo)</title>
+  <rect width="120" height="120" rx="26" fill="#1E1B4B"/>
+  <!-- back screen: the "second screen" -->
+  <rect x="22" y="30" width="52" height="36" rx="6" fill="none" stroke="#A89CFF" stroke-width="4"/>
+  <!-- front screen -->
+  <rect x="46" y="54" width="52" height="36" rx="6" fill="#7C5CFF"/>
+  <!-- small accent dot -->
+  <circle cx="72" cy="72" r="4" fill="#FFB84D"/>
+</svg>
